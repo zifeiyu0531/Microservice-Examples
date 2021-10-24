@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.tencent.cloud:spring-cloud-starter-tencent-polaris-discovery:1.1.4.Hoxton.SR9-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/tencent/cloud/spring-cloud-starter-tencent-polaris-discovery/1.1.4.Hoxton.SR9-SNAPSHOT/spring-cloud-starter-tencent-polaris-discovery-1.1.4.Hoxton.SR9-20210917.032258-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/tencent/cloud/spring-cloud-starter-tencent-polaris-discovery/1.1.4.Hoxton.SR9-SNAPSHOT/spring-cloud-starter-tencent-polaris-discovery-1.1.4.Hoxton.SR9-20210917.032258-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/tencent/cloud/spring-cloud-starter-tencent-polaris-discovery/1.1.4.Hoxton.SR9-SNAPSHOT/spring-cloud-starter-tencent-polaris-discovery-1.1.4.Hoxton.SR9-20210917.032258-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

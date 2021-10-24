@@ -1,0 +1,47 @@
+---
+code: 200000
+info: "execute success"
+type: "INSTANCE"
+service:
+  name: "DiscoveryCalleeService"
+  namespace: "default"
+  ports: ""
+  business: ""
+  department: ""
+  cmdb_mod1: ""
+  cmdb_mod2: ""
+  cmdb_mod3: ""
+  comment: ""
+  owners: "polaris"
+  ctime: "2021-10-24 13:45:10"
+  mtime: "2021-10-24 13:45:10"
+  revision: "cb66150d5f08eeae62b3e59cb73058974dd88192"
+  platform_id: ""
+instances:
+- id: "f101b0bd7ffe4003fd1da2fa79f907b9f21c50d9"
+  service: "DiscoveryCalleeService"
+  namespace: "default"
+  host: "127.0.0.1"
+  port: 48081
+  weight: 100
+  healthy: true
+  isolate: false
+  metadata:
+    version: ""
+    protocol: ""
+  mtime: "2021-10-24 13:45:32"
+  revision: "32ce4ba2b48b4dbcbbb0dd5249590ebf"
+- id: "1894b6a84660a9d455f213f2b68ae7416ab6ca7a"
+  service: "DiscoveryCalleeService"
+  namespace: "default"
+  host: "10.133.10.170"
+  port: 48081
+  protocol: "http"
+  weight: 100
+  healthy: true
+  isolate: false
+  metadata:
+    version: ""
+    protocol: "http"
+  mtime: "2021-10-24 13:46:06"
+  revision: "bb579019ade24e07803ccfc5e758d4e8"

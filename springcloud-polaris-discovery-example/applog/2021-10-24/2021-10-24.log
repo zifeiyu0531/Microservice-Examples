@@ -1,0 +1,135 @@
+2021-10-24 13:46:01 -No active profile set, falling back to default profiles: default
+2021-10-24 13:46:02 -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-10-24 13:46:02 -BeanFactory id=4d28ca78-0ff9-3e1e-b672-77c4e7e8c2a2
+2021-10-24 13:46:02 -Bean 'com.tencent.cloud.metadata.config.MetadataConfiguration$MetadataRestTemplateConfig' of type [com.tencent.cloud.metadata.config.MetadataConfiguration$MetadataRestTemplateConfig$$EnhancerBySpringCGLIB$$2f4a396a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-24 13:46:02 -Bean 'metadataRestTemplateInterceptor' of type [com.tencent.cloud.metadata.core.interceptor.resttemplate.MetadataRestTemplateInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-24 13:46:02 -Tomcat initialized with port(s): 48081 (http)
+2021-10-24 13:46:02 -Initializing ProtocolHandler ["http-nio-48081"]
+2021-10-24 13:46:02 -Starting service [Tomcat]
+2021-10-24 13:46:02 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-10-24 13:46:02 -Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-10-24 13:46:02 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-10-24 13:46:02 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-24 13:46:02 -OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-10-24 13:46:02 -Initializing Spring embedded WebApplicationContext
+2021-10-24 13:46:02 -Root WebApplicationContext: initialization completed in 1275 ms
+2021-10-24 13:46:02 -No URLs will be polled as dynamic configuration sources.
+2021-10-24 13:46:02 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-24 13:46:02 -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@40712ee9
+2021-10-24 13:46:02 -No URLs will be polled as dynamic configuration sources.
+2021-10-24 13:46:02 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-24 13:46:03 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 13:46:03 -[Configuration]success to load config stream from polaris.yml
+2021-10-24 13:46:03 -[ServerConnector]cluster BUILTIN_CLUSTER, service null has been made ready
+2021-10-24 13:46:03 -[ServerConnector]cluster SERVICE_DISCOVER_CLUSTER, service null has been made ready
+2021-10-24 13:46:03 -[ServerConnector]cluster HEALTH_CHECK_CLUSTER, service null has been made ready
+2021-10-24 13:46:03 -start to load local cache files from ./polaris/backup
+2021-10-24 13:46:03 -loaded 0 services from local cache
+2021-10-24 13:46:04 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-24 13:46:04 -Starting ProtocolHandler ["http-nio-48081"]
+2021-10-24 13:46:04 -Tomcat started on port(s): 48081 (http) with context path ''
+2021-10-24 13:46:06 -register default/DiscoveryCalleeService instance 1894b6a84660a9d455f213f2b68ae7416ab6ca7a succ
+2021-10-24 13:46:06 -polaris registry, default DiscoveryCalleeService 10.133.10.170:48081 {} register finished
+2021-10-24 13:46:07 -Started DiscoveryCalleeService in 8.474 seconds (JVM running for 10.517)
+2021-10-24 13:46:21 -No active profile set, falling back to default profiles: default
+2021-10-24 13:46:21 -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-10-24 13:46:21 -BeanFactory id=8c30941e-1f38-3483-9b82-11ab8994327d
+2021-10-24 13:46:21 -Bean 'com.tencent.cloud.metadata.config.MetadataConfiguration$MetadataRestTemplateConfig' of type [com.tencent.cloud.metadata.config.MetadataConfiguration$MetadataRestTemplateConfig$$EnhancerBySpringCGLIB$$8ca0db9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-24 13:46:21 -Bean 'com.tencent.cloud.polaris.discovery.service.caller.DiscoveryCalleeService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-24 13:46:21 -Bean 'metadataRestTemplateInterceptor' of type [com.tencent.cloud.metadata.core.interceptor.resttemplate.MetadataRestTemplateInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-24 13:46:21 -Bean 'discoveryCallerService' of type [com.tencent.cloud.polaris.discovery.service.caller.DiscoveryCallerService$$EnhancerBySpringCGLIB$$8e6d9538] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-24 13:46:21 -Bean 'restTemplate' of type [org.springframework.web.client.RestTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-24 13:46:22 -Tomcat initialized with port(s): 48080 (http)
+2021-10-24 13:46:22 -Initializing ProtocolHandler ["http-nio-48080"]
+2021-10-24 13:46:22 -Starting service [Tomcat]
+2021-10-24 13:46:22 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-10-24 13:46:22 -Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-10-24 13:46:22 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-10-24 13:46:22 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-24 13:46:22 -OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-10-24 13:46:22 -Initializing Spring embedded WebApplicationContext
+2021-10-24 13:46:22 -Root WebApplicationContext: initialization completed in 1150 ms
+2021-10-24 13:46:22 -No URLs will be polled as dynamic configuration sources.
+2021-10-24 13:46:22 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-24 13:46:22 -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69228e85
+2021-10-24 13:46:22 -No URLs will be polled as dynamic configuration sources.
+2021-10-24 13:46:22 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-24 13:46:22 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 13:46:22 -[Configuration]success to load config stream from polaris.yml
+2021-10-24 13:46:22 -[ServerConnector]cluster BUILTIN_CLUSTER, service null has been made ready
+2021-10-24 13:46:22 -[ServerConnector]cluster SERVICE_DISCOVER_CLUSTER, service null has been made ready
+2021-10-24 13:46:22 -[ServerConnector]cluster HEALTH_CHECK_CLUSTER, service null has been made ready
+2021-10-24 13:46:22 -start to load local cache files from ./polaris/backup
+2021-10-24 13:46:22 -loaded 0 services from local cache
+2021-10-24 13:46:24 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-24 13:46:24 -Starting ProtocolHandler ["http-nio-48080"]
+2021-10-24 13:46:24 -Tomcat started on port(s): 48080 (http) with context path ''
+2021-10-24 13:46:25 -register default/DiscoveryCallerService instance 1d4b466f6cf27f71d616ef10ad4ea86d51fe40e2 succ
+2021-10-24 13:46:25 -polaris registry, default DiscoveryCallerService 10.133.10.170:48080 {} register finished
+2021-10-24 13:46:26 -Started DiscoveryCallerService in 8.329 seconds (JVM running for 10.186)
+2021-10-24 13:46:35 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-24 13:46:35 -Initializing Servlet 'dispatcherServlet'
+2021-10-24 13:46:35 -Completed initialization in 7 ms
+2021-10-24 13:46:35 -Client: DiscoveryCalleeService instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=DiscoveryCalleeService,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-10-24 13:46:35 -Using serverListUpdater PollingServerListUpdater
+2021-10-24 13:46:35 -[LocalRegistry]start to register service handler for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}
+2021-10-24 13:46:36 -[ServerConnector]task for service ServiceUpdateTask{taskType=FIRST, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:36 -[ServerConnector]start to run first task ServiceUpdateTask{taskType=FIRST, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER}
+2021-10-24 13:46:36 -[ServerConnector]success to create stream client for task ServiceUpdateTask{taskType=FIRST, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER}
+2021-10-24 13:46:36 -[ServerConnector]send request(id=41) to ConnID{id='defd5947-270c-4446-9060-37178771719b', serviceKey=null, clusterType=SERVICE_DISCOVER_CLUSTER, host='127.0.0.1', port=8091} for service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}
+2021-10-24 13:46:36 -[ServerConnector]receive response for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}
+2021-10-24 13:46:36 -resource ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE} has updated, compare status CacheNotExists, old revision is <empty>, old loadedFromFile is false, new revision is cb66150d5f08eeae62b3e59cb73058974dd88192
+2021-10-24 13:46:36 -OnServiceUpdate: cache ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE} is pending to update
+2021-10-24 13:46:36 -start to save service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}
+2021-10-24 13:46:36 -CacheObject: value for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE} is updated, revision cb66150d5f08eeae62b3e59cb73058974dd88192
+2021-10-24 13:46:36 -DynamicServerListLoadBalancer for client DiscoveryCalleeService initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=DiscoveryCalleeService,current list of Servers=[10.133.10.170:48081, 127.0.0.1:48081],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:2;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:127.0.0.1:48081;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+, [Server:10.133.10.170:48081;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.tencent.cloud.polaris.ribbon.PolarisServerList@5171c15d
+2021-10-24 13:46:36 -end to save service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE} to C:\Users\11863\Documents\GitHub\polaris\spring-cloud-tencent-main\spring-cloud-tencent-examples\polaris-discovery-example\.\polaris\backup\svc#default#DiscoveryCalleeService#instance.yaml
+2021-10-24 13:46:36 -[LocalRegistry]start to register service handler for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}
+2021-10-24 13:46:36 -[ServerConnector]task for service ServiceUpdateTask{taskType=FIRST, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:36 -[LocalRegistry]start to register service handler for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}
+2021-10-24 13:46:36 -[ServerConnector]start to run first task ServiceUpdateTask{taskType=FIRST, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER}
+2021-10-24 13:46:36 -[ServerConnector]task for service ServiceUpdateTask{taskType=FIRST, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:36 -[ServerConnector]send request(id=41) to ConnID{id='defd5947-270c-4446-9060-37178771719b', serviceKey=null, clusterType=SERVICE_DISCOVER_CLUSTER, host='127.0.0.1', port=8091} for service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}
+2021-10-24 13:46:36 -[ServerConnector]start to run first task ServiceUpdateTask{taskType=FIRST, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER}
+2021-10-24 13:46:36 -[ServerConnector]send request(id=41) to ConnID{id='defd5947-270c-4446-9060-37178771719b', serviceKey=null, clusterType=SERVICE_DISCOVER_CLUSTER, host='127.0.0.1', port=8091} for service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}
+2021-10-24 13:46:36 -[ServerConnector]receive response for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}
+2021-10-24 13:46:36 -resource ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING} has updated, compare status CacheNotExists, old revision is <empty>, old loadedFromFile is false, new revision is 
+2021-10-24 13:46:36 -OnServiceUpdate: cache ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING} is pending to update
+2021-10-24 13:46:36 -CacheObject: value for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING} is updated, revision 
+2021-10-24 13:46:36 -start to save service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}
+2021-10-24 13:46:36 -[ServerConnector]receive response for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}
+2021-10-24 13:46:36 -resource ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING} has updated, compare status CacheNotExists, old revision is <empty>, old loadedFromFile is false, new revision is 
+2021-10-24 13:46:36 -OnServiceUpdate: cache ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING} is pending to update
+2021-10-24 13:46:36 -CacheObject: value for ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING} is updated, revision 
+2021-10-24 13:46:36 -end to save service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING} to C:\Users\11863\Documents\GitHub\polaris\spring-cloud-tencent-main\spring-cloud-tencent-examples\polaris-discovery-example\.\polaris\backup\svc#default#DiscoveryCallerService#routing.yaml
+2021-10-24 13:46:36 -start to save service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}
+2021-10-24 13:46:36 -end to save service ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING} to C:\Users\11863\Documents\GitHub\polaris\spring-cloud-tencent-main\spring-cloud-tencent-examples\polaris-discovery-example\.\polaris\backup\svc#default#DiscoveryCalleeService#routing.yaml
+2021-10-24 13:46:37 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-24 13:46:37 -Initializing Servlet 'dispatcherServlet'
+2021-10-24 13:46:37 -Completed initialization in 5 ms
+2021-10-24 13:46:38 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:39 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:39 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:40 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:41 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:41 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:42 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:44 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:44 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:44 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:46 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:46 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:46 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:48 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:49 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:49 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:50 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:52 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:52 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:52 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:54 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=INSTANCE}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:54 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCallerService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover
+2021-10-24 13:46:54 -[ServerConnector]task for service ServiceUpdateTask{taskType=LONG_RUNNING, taskStatus=RUNNING, serviceEventKey=ServiceEventKey{serviceKey=ServiceKey{namespace='default', service='DiscoveryCalleeService'}, eventType=ROUTING}, targetClusterType=SERVICE_DISCOVER_CLUSTER} has been scheduled discover

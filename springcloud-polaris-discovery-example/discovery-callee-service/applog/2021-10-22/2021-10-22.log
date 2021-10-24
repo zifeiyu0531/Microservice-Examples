@@ -1,0 +1,110 @@
+2021-10-22 21:52:06 -No active profile set, falling back to default profiles: default
+2021-10-22 21:52:06 -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-10-22 21:52:07 -BeanFactory id=4d28ca78-0ff9-3e1e-b672-77c4e7e8c2a2
+2021-10-22 21:52:07 -Bean 'com.tencent.cloud.metadata.config.MetadataConfiguration$MetadataRestTemplateConfig' of type [com.tencent.cloud.metadata.config.MetadataConfiguration$MetadataRestTemplateConfig$$EnhancerBySpringCGLIB$$2f4a396a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-22 21:52:07 -Bean 'metadataRestTemplateInterceptor' of type [com.tencent.cloud.metadata.core.interceptor.resttemplate.MetadataRestTemplateInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-22 21:52:07 -Tomcat initialized with port(s): 48081 (http)
+2021-10-22 21:52:07 -Initializing ProtocolHandler ["http-nio-48081"]
+2021-10-22 21:52:07 -Starting service [Tomcat]
+2021-10-22 21:52:07 -Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-10-22 21:52:07 -Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-10-22 21:52:07 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-10-22 21:52:07 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-22 21:52:07 -OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-10-22 21:52:07 -Initializing Spring embedded WebApplicationContext
+2021-10-22 21:52:07 -Root WebApplicationContext: initialization completed in 1178 ms
+2021-10-22 21:52:07 -No URLs will be polled as dynamic configuration sources.
+2021-10-22 21:52:07 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-22 21:52:07 -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@40712ee9
+2021-10-22 21:52:07 -No URLs will be polled as dynamic configuration sources.
+2021-10-22 21:52:07 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-22 21:52:07 -Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-22 21:52:08 -[Configuration]success to load config stream from polaris.yml
+2021-10-22 21:52:08 -[ServerConnector]cluster BUILTIN_CLUSTER, service null has been made ready
+2021-10-22 21:52:08 -[ServerConnector]cluster SERVICE_DISCOVER_CLUSTER, service null has been made ready
+2021-10-22 21:52:08 -[ServerConnector]cluster HEALTH_CHECK_CLUSTER, service null has been made ready
+2021-10-22 21:52:08 -start to load local cache files from ./polaris/backup
+2021-10-22 21:52:08 -loaded 0 services from local cache
+2021-10-22 21:52:09 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-22 21:52:09 -Starting ProtocolHandler ["http-nio-48081"]
+2021-10-22 21:52:09 -Tomcat started on port(s): 48081 (http) with context path ''
+2021-10-22 21:52:11 -polaris registry, DiscoveryCalleeService register failed...PolarisRegistration{polarisProperties=PolarisProperties{token='', namespace='default', service='DiscoveryCalleeService', weight=100.0, version='null', protocol='http', port=48081, loadbalancerEnabled=true, policy='weightedRandom', registerEnabled=true, heartbeatEnabled=false, environment=StandardServletEnvironment {activeProfiles=[], defaultProfiles=[default], propertySources=[MapPropertySource {name='server.ports'}, ConfigurationPropertySourcesPropertySource {name='configurationProperties'}, StubPropertySource {name='servletConfigInitParams'}, ServletContextPropertySource {name='servletContextInitParams'}, PropertiesPropertySource {name='systemProperties'}, OriginAwareSystemEnvironmentPropertySource {name='systemEnvironment'}, RandomValuePropertySource {name='random'}, MapPropertySource {name='springCloudClientHostInfo'}, OriginTrackedMapPropertySource {name='applicationConfig: [classpath:/bootstrap.yml]'}, MapPropertySource {name='springCloudDefaultProperties'}, CachedRandomPropertySource {name='cachedrandom'},  {name='Management Server'}]}}, polarisContext=com.tencent.polaris.client.api.SDKContext@2d7637e6},
+com.tencent.polaris.api.exception.PolarisException: ERR-1006(SERVER_USER_ERROR), server error 400202: not found resource
+	at com.tencent.polaris.plugins.connector.grpc.GrpcUtil.checkResponse(GrpcUtil.java:141)
+	at com.tencent.polaris.plugins.connector.grpc.GrpcConnector.registerInstance(GrpcConnector.java:195)
+	at com.tencent.polaris.discovery.client.api.DefaultProviderAPI.register(DefaultProviderAPI.java:50)
+	at com.tencent.cloud.polaris.registry.PolarisServiceRegistry.register(PolarisServiceRegistry.java:97)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.tencent.cloud.polaris.registry.PolarisAutoServiceRegistration.register(PolarisAutoServiceRegistration.java:66)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.tencent.cloud.polaris.discovery.service.callee.DiscoveryCalleeService.main(DiscoveryCalleeService.java:30)
+2021-10-22 21:52:11 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is com.tencent.polaris.api.exception.PolarisException: ERR-1006(SERVER_USER_ERROR), server error 400202: not found resource
+2021-10-22 21:52:11 -reportClientExecutor has been stopped
+2021-10-22 21:52:11 -start to destroy connector grpc
+2021-10-22 21:52:11 -Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-22 21:52:11 -Pausing ProtocolHandler ["http-nio-48081"]
+2021-10-22 21:52:11 -Stopping service [Tomcat]
+2021-10-22 21:52:11 -Stopping ProtocolHandler ["http-nio-48081"]
+2021-10-22 21:52:11 -Destroying ProtocolHandler ["http-nio-48081"]
+2021-10-22 21:52:11 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-22 21:52:11 -Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is com.tencent.polaris.api.exception.PolarisException: ERR-1006(SERVER_USER_ERROR), server error 400202: not found resource
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.tencent.cloud.polaris.discovery.service.callee.DiscoveryCalleeService.main(DiscoveryCalleeService.java:30)
+Caused by: com.tencent.polaris.api.exception.PolarisException: ERR-1006(SERVER_USER_ERROR), server error 400202: not found resource
+	at com.tencent.polaris.plugins.connector.grpc.GrpcUtil.checkResponse(GrpcUtil.java:141)
+	at com.tencent.polaris.plugins.connector.grpc.GrpcConnector.registerInstance(GrpcConnector.java:195)
+	at com.tencent.polaris.discovery.client.api.DefaultProviderAPI.register(DefaultProviderAPI.java:50)
+	at com.tencent.cloud.polaris.registry.PolarisServiceRegistry.register(PolarisServiceRegistry.java:97)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.tencent.cloud.polaris.registry.PolarisAutoServiceRegistration.register(PolarisAutoServiceRegistration.java:66)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	... 14 common frames omitted

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/discovery-callee-service/discovery-callee-service.iml" filepath="$PROJECT_DIR$/discovery-callee-service/discovery-callee-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-caller-service/discovery-caller-service.iml" filepath="$PROJECT_DIR$/discovery-caller-service/discovery-caller-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polaris-discovery-example.iml" filepath="$PROJECT_DIR$/polaris-discovery-example.iml" />
+    </modules>
+  </component>
+</project>
